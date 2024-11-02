@@ -13,10 +13,22 @@ This study investigates the effectiveness of various tokenization strategies, sp
     
 ---
 
+## Performance Results
+
+The fine-tuned models were evaluated on four downstream tasks, achieving the following F1 scores:
+- **News Classification**: 97.8% (BPE with Farasa)
+- **Hate Speech Detection**: 68.4% (BPE with Farasa)
+- **Sentiment Analysis**: 83.0% (BPE)
+- **Natural Language Inference**: 56.3% (BPE with Farasa)
+
+These results underscore the impact of different tokenization strategies on Arabic NLP tasks.
+
+---
+
 **Models**:
    Pre-trained and fine-tuned models are available on Hugging Face:
    - [Arabic Language Model - Tokenization Strategies](https://huggingface.co/nourmorsy)
-     
+
 ---
 
 ## Citation
